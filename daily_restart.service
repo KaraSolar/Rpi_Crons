@@ -1,0 +1,6 @@
+[Unit]
+Description=Daily Restart
+
+[Service]
+Type=oneshot
+ExecStart=/sbin/shutdown -r now

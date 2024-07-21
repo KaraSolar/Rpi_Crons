@@ -1,0 +1,9 @@
+[Unit]
+Description=Run loveletter_extraction daily at 2:15 AM
+
+[Timer]
+OnCalendar=*-*-* 13:48:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

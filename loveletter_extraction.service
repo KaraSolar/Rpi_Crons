@@ -1,0 +1,6 @@
+[Unit]
+Description=Run LoveLetterExtraction/run.sh
+
+[Service]
+ExecStart=/home/pi/LoveLetterExtraction/run.sh
+WorkingDirectory=/home/pi/LoveLetterExtraction
