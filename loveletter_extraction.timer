@@ -1,8 +1,9 @@
 [Unit]
-Description=Run loveletter_extraction daily at 2:15 AM
+Description=Run loveletter_extraction 3 minutes after boot and every 40 minutes.
 
 [Timer]
-OnCalendar=*-*-* 02:15:00
+OnBootSec=3min
+OnUnitActiveSec=40min
 Persistent=true
 
 [Install]
