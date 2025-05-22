@@ -2,7 +2,7 @@
 Description=Run loveletter_extraction 3 minutes after boot and every 40 minutes.
 
 [Timer]
-OnBootSec=3min
+OnBootSec=1min
 OnUnitActiveSec=40min
 Persistent=true
 
